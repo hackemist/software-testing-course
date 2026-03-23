@@ -7,6 +7,7 @@
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "test:report": "playwright show-report",
+    "test:only-edge-cases": "playwright test tests/edge-cases.spec.js",
     "test:install-browsers": "playwright install"
   },
   "devDependencies": {
